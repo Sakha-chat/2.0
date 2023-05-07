@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+.logo{
+    text-align: center;
+    margin-top: 130px;
+}
+.logo-img{
+    height: 200px;
+    width: 400px;
+}
+.text{
+    color: aliceblue;
+    text-align: center;
+}
+.button-grp{
+    text-align: center;
+}

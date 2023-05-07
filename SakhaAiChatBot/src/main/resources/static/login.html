@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/1270dba9e7.js" crossorigin="anonymous"></script>
+    <title>Sign In form</title>
+    <style>
+    body
+    {
+    	background-color:black;
+    }
+     .sig-up-img{
+        height: 60px;
+        width: 60p;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 160px;
+    }
+    .img-sign-up{
+        height: 100px;
+        width: 100px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        
+        <div class="form-container sign-up-container">
+            <!-- Sign Up form code goes here -->
+            <form action="signupUser" method="post">
+                <h1>Create Account</h1>
+                <input type="text" placeholder="Username" name="username"/>
+                <input type="email" placeholder="Email" name="userEmail"/>
+                <input type="password" placeholder="Password" name="password"/>
+                <input type="text" placeholder="Phone Number" name="phoneNumber"/>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <!-- Sign In form code goes here -->
+            <div class="img-sign-up">
+                <img src="./images/circleLogo.png" class="sig-up-img" alt="">
+            </div> 
+            <div>
+            <form action="loginUser" method="post">
+                <h1>Sign in</h1>
+                <!-- <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span> -->
+                <input type="email" placeholder="Email" name="userEmail" />
+                <input type="password" placeholder="Password" name="userPassword"/>
+                <!-- <a href="#">Forgot your password?</a> -->
+                <button>Sign In</button>
+            </form>
+        </div>
+        </div>
+        <div class="overlay-container">
+            <!-- The overlay code goes here -->
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/signin.js"></script>
+</body>
+</html>

@@ -1,0 +1,398 @@
+/* Typing Part */ 
+.typewriter h1 {
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+      typing 10.2s steps(50, end),
+      blink-caret 0.5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+
+/* End of Typing Part */
+
+
+
+
+.nav-temp-logo{
+    height: 100px;
+    width: 250px;
+}
+#askKrishna{
+    margin-left: 5px;
+    font-size: 18px;
+    background-color: #E58538;
+    color: white;
+}
+/* Left Volume Img */
+#img-volume{
+    height: 25px;
+    width: 25px;
+} 
+
+/* end */ 
+
+/* Customise name  */
+
+.top{
+    text-align: center;
+    font-size: 180%;
+    color:white;
+} 
+
+/* end  */
+
+
+/* End Part */
+.music{
+    height: 60px;
+    width: 100px;
+} 
+
+/* End */ 
+
+/* Sakha Name */
+.name{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 41%;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+/* End */ 
+
+/* Place Holder */
+.text{
+    text-align: center;
+} 
+/* End */ 
+
+/* Logo */
+.logo{
+    margin-left: 5px;
+    height: 50px;
+    width: 60px;
+} 
+/* End */ 
+
+
+/* Ask Button */
+.btn-ask{
+    width: 75%;
+    font-size: 20px;
+} 
+/* End */ 
+
+/* Place Holder Text */
+.text-area{
+    width: 75%;
+    height: 50%;
+    margin-left: 13%;
+    margin-bottom: 0px;
+    background-color: rgb(30, 28, 28);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(210, 134, 106);
+} 
+/* End */ 
+
+/* Team Sakha */
+.lower-text{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+} 
+/* End */
+
+/* try */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 370px;
+    width: 74%;margin-left: 143px;
+}
+
+.wrapper .title {
+    background: #DC8449;
+    color: white;
+    line-height: 2.5;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wrapper .box {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+    min-height: 400px;
+    max-height: 400px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.wrapper .box .item {
+    display: flex;
+    float: right;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.wrapper .box .item .icon {
+    color: white;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.wrapper .box .item .msg {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.wrapper .box .item .msg p {
+    padding: 10px;
+}
+
+.wrapper .box .item.right {
+    float: left;
+}
+
+.wrapper .box .item.right .msg {
+    background: #efefef;
+    color: #333;
+}
+
+.wrapper .typing-area {
+    width: 100%;
+    background: #efefef;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.wrapper .typing-area .input-field {
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .typing-area .input-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    padding-right: 70px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s all ease;
+}
+
+.wrapper .typing-area .input-field input:focus {
+    border-color: #DC8449;
+}
+
+.wrapper .typing-area .input-field button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: 1px solid #DC8449;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #DC8449;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s all ease;
+}
+
+.wrapper .typing-area .input-field button:hover {
+    background: #DC8449;
+    color: white;
+}
+
+.wrapper .typing-area .input-field input:valid ~ button {
+    opacity: 1;
+    pointer-events: auto;
+}
+.icon-left{
+    margin-left:3px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.icon-right{
+    width: 100px;
+    height: 50px;
+} 
+.user{
+    height: 60px;
+    width: 60px;
+}
+.krishna{
+    height: 60px;
+    width: 60px;
+}
+.lower{
+    color: #efefef;
+    background-color: #353433;
+}
+
+
+
+/* Messages */
+.chatbox__messages {
+    padding: 0 20px;
+}
+
+.messages__item {
+    margin-top: 10px;
+    width: fit-content;
+    padding: 8px 12px;
+}
+
+.messages__item--visitor,
+.messages__item--typing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+}
+.messages__item--operator {
+    margin-left: auto;
+}
+
+.messages__item--visitor {
+    margin-right: auto;
+}
+.messages__item--operator {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+}
+.messages__item--operator p{
+    background-color: #DC8449;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.messages__item--visitor p{
+    background-color: #F1DEC9;
+    color: rgb(84, 39, 39);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+/* Footer */
+.chatbox__footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2px;
+    background: var(--secondaryGradient);
+    box-shadow: var(--secondaryBoxShadow);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: 0px;
+}
+
+.chatbox__footer input {
+    width: 100%;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chatbox__send--footer {
+    color: rgb(255, 255, 255);
+}  
+
+/* Send Temp */ 
+
+.button {
+    position: relative;
+    background-color: #FFBF86;
+    border: none;
+    font-size: 13px;
+    color: #000000;
+    padding: 8px;
+    width: 62px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .button:after {
+    content: "";
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+/* Last */
+/* Nav */
+
+
+/* Media Query Part */
+
+@media only screen and (max-width: 780px) {
+    .wrapper{
+      margin-left: 0px;
+      width: 100%;
+    }
+}
+
+  /* nav */
+  
+

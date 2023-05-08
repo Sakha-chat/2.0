@@ -19,6 +19,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 @RestController
+@CrossOrigin(maxAge=3600,origins="*")
 public class MainController {
 
 	@Autowired

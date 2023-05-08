@@ -66,7 +66,7 @@ document.getElementById("btncol5").onclick = function() {
 
 // End of FAQ
 function gettingResponse(msg) {
-	fetch('http://localhost:8080/message', {
+	fetch('/message', {
 		method: 'POST',
 		body: JSON.stringify({ message: msg }),
 		mode: 'cors',
@@ -103,7 +103,7 @@ window.onload = function() {
 }
 
 function displayName() {
-	fetch('http://localhost:8080/getCurrentUser')
+	fetch('/getCurrentUser')
 		.then(r => r.json())
 		.then(r => {
 

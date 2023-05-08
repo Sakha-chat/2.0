@@ -1,5 +1,6 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import openai
+import os
 sentiment = SentimentIntensityAnalyzer()
 
 '''
@@ -9,7 +10,7 @@ sentiment = SentimentIntensityAnalyzer()
 •(Done) Opinion- Positive, Negative, Neutral
 '''
 
-openai.api_key = "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"
+openai.api_key = os.environ['openai_api_key']
 #text = input("You: ")
 
 def ask_question(prompt):

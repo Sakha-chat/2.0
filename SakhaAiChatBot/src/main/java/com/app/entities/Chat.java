@@ -13,7 +13,7 @@ import jakarta.persistence.Lob;
 @Entity
 public class Chat {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	int chatId;
 	int userId;
 	@Column(columnDefinition = "longtext")

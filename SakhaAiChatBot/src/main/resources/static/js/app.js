@@ -19,7 +19,7 @@ navToggle.addEventListener("click", function () {
 
 // Sound Part Start
 var p=0;
-var tom1 = new Audio("music/LordKrishna.mp3");
+var tom1 = new Audio("musics/LordKrishna.mp3");
 document.getElementById("img-volume").onclick = function() {
     if(p==0){
         p=1; 

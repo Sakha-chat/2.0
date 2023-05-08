@@ -93,7 +93,7 @@ class Chatbox {
 /*    this.messages.push(ms2);
 */
         
-        fetch('http://localhost:8080/message', {
+        fetch('/message', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
@@ -146,7 +146,7 @@ window.onload = function() {
 }
 
 function displayName() {
-	fetch('http://localhost:8080/getCurrentUser')
+	fetch('/getCurrentUser')
 		.then(r => r.json())
 		.then(r => {
 

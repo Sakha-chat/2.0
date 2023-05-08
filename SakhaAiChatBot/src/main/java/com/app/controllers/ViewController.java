@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
+@CrossOrigin(maxAge=3600,origins="*")
 public class ViewController {
 
 	@RequestMapping("/dashboard")

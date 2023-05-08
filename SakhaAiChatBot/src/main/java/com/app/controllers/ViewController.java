@@ -2,7 +2,7 @@ package com.app.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
+import org.springframework.web.bind.annotation.CrossOrigin;
 @Controller
 @CrossOrigin(maxAge=3600,origins="*")
 public class ViewController {
